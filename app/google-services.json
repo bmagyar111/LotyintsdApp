@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "982411311694",
+    "project_id": "lotyintsdapp",
+    "storage_bucket": "lotyintsdapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982411311694:android:30b3fd29632fd8a270a11f",
+        "android_client_info": {
+          "package_name": "com.example.lotyintsdapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982411311694-cn4et8opmve5lff3g8s25g0u2oqah4bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lotyintsdapp",
+            "certificate_hash": "bbecbae6ace6ef47cffc5ab9cfa21b36a828cab4"
+          }
+        },
+        {
+          "client_id": "982411311694-k3540jqfclb29jt0qg98cemo7tm4s0b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdTb_pdXA1up4XeO1jAQoL3pTb6fxX5a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982411311694-k3540jqfclb29jt0qg98cemo7tm4s0b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

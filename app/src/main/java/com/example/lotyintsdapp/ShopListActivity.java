@@ -18,7 +18,6 @@ public class ShopListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop_list);
         mAuth = FirebaseAuth.getInstance();
-        // mAuth.signOut();
         user = FirebaseAuth.getInstance().getCurrentUser();
 
         if(user != null) {

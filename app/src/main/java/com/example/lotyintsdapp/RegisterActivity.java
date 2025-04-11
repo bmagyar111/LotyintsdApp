@@ -88,7 +88,7 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
         finish();
     }
 
-    private void backTologin(/* registered used class */) {
+    private void backTologin() {
         Intent intent = new Intent(this, MainActivity.class);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         intent.putExtra("SECRET_KEY", SECRET_KEY);

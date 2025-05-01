@@ -12,4 +12,86 @@
     <string name="address">Cím</string>
     <string name="account_type">Fiók típusa</string>
     <string name="ital_description">Ital leírása.</string>
+
+    <string name="login_text">A folytatáshoz be kell jelentkezned!\nHa még nem regisztráltál regisztrálj!</string>
+    <string name="email">Email cím</string>
+    <string name="vendeg">Csak szétnézek</string>
+    <string name="item_placeholder">Név</string>
+    <string name="megrendel">Megrendel</string>
+    <string name="delete">Törlés</string>
+    <string name="vasarl_folytat">Vásárlás folytatása</string>
+    <string name="kosarba">Kosárba</string>
+
+    <string-array name="ital_nevek">
+        <item>Margherita</item>
+        <item>Marinara</item>
+        <item>Pizza Capricciosa</item>
+        <item>Quattro</item>
+        <item>Pizza Diavola</item>
+        <item>Quattro Formaggi</item>
+        <item>Pizza Boscaiola</item>
+        <item>Prosciutto e funghi</item>
+        <item>Oliva</item>
+        <item>Ortolana – Vegetariana</item>
+    </string-array>
+
+    <array name="ital_kepek">
+        <item>@drawable/margherita</item>
+        <item>@drawable/marinara</item>
+        <item>@drawable/capricciosa</item>
+        <item>@drawable/quattro</item>
+        <item>@drawable/diavola</item>
+        <item>@drawable/formaggi</item>
+        <item>@drawable/boscaiola</item>
+        <item>@drawable/prosciutto</item>
+        <item>@drawable/oliva</item>
+        <item>@drawable/ortolana</item>
+    </array>
+
+    <array name="ital_ertekelesek">
+        <item>4</item>
+        <item>5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>2.5</item>
+        <item>5</item>
+        <item>3</item>
+    </array>
+
+    <array name="ital_arak">
+        <item>3000 Ft</item>
+        <item>3000 Ft</item>
+        <item>3200 Ft</item>
+        <item>3150 Ft</item>
+        <item>3000 Ft</item>
+        <item>2900 Ft</item>
+        <item>3050 Ft</item>
+        <item>3130 Ft</item>
+        <item>3025 Ft</item>
+        <item>2400 Ft</item>
+
+    </array>
+
+    <string-array name="sort_spinner">
+        <item>Növekvő ár</item>
+        <item>Csökkenő ár</item>
+    </string-array>
+
+    <string-array name="limit">
+        <item>10</item>
+        <item>1</item>
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
 </resources>

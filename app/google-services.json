@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "982411311694-cn4et8opmve5lff3g8s25g0u2oqah4bm.apps.googleusercontent.com",
+          "client_id": "982411311694-t3bcd0k45aem1nf2qp0esq1m4eedgmvn.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.lotyintsdapp",
-            "certificate_hash": "bbecbae6ace6ef47cffc5ab9cfa21b36a828cab4"
+            "certificate_hash": "d74016d5aa3434c4cafca2fbef54183b9797d27c"
           }
         },
         {

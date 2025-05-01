@@ -7,6 +7,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Intent;
@@ -187,24 +188,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void sendNotification(String message) {
-        // Ellenőrizzük, hogy van-e értesítési engedély
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECEIVE_BOOT_COMPLETED) == PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.RECEIVE_BOOT_COMPLETED) != PackageManager.PERMISSION_GRANTED) {
             // Az értesítés építése
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "Bejelentkezés")
                     .setSmallIcon(R.drawable.logo)
                     .setContentTitle("Bejelentkezés")
                     .setContentText(message)
                     .setPriority(NotificationCompat.PRIORITY_HIGH);
-
-            // Az értesítési menedzser eléréséhez
             NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
             notificationManager.notify(1, builder.build());
         } else {
-            // Az engedély hiányában megjelenített üzenet
             Toast.makeText(this, "Az értesítési engedély hiányzik", Toast.LENGTH_SHORT).show();
-            // Engedélykérési logika
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECEIVE_BOOT_COMPLETED}, PERMISSION_REQUEST_CODE);
         }
+
+
 
     }
 

@@ -23,29 +23,25 @@
     <string name="kosarba">Kosárba</string>
 
     <string-array name="ital_nevek">
-        <item>Margherita</item>
-        <item>Marinara</item>
-        <item>Pizza Capricciosa</item>
-        <item>Quattro</item>
-        <item>Pizza Diavola</item>
-        <item>Quattro Formaggi</item>
-        <item>Pizza Boscaiola</item>
-        <item>Prosciutto e funghi</item>
-        <item>Oliva</item>
-        <item>Ortolana – Vegetariana</item>
+        <item>Schweppes</item>
+        <item>Coca-Cola</item>
+        <item>Heineken</item>
+        <item>Kőbányai</item>
+        <item>Tramini édes fehérbor</item>
+        <item>Bloody Mary koktél</item>
+        <item>Tequila sunrise koktél</item>
+        <item>Aperol Spritz koktél</item>
     </string-array>
 
     <array name="ital_kepek">
-        <item>@drawable/margherita</item>
-        <item>@drawable/marinara</item>
-        <item>@drawable/capricciosa</item>
-        <item>@drawable/quattro</item>
-        <item>@drawable/diavola</item>
-        <item>@drawable/formaggi</item>
-        <item>@drawable/boscaiola</item>
-        <item>@drawable/prosciutto</item>
-        <item>@drawable/oliva</item>
-        <item>@drawable/ortolana</item>
+        <item>@drawable/schweppes</item>
+        <item>@drawable/coca_cola</item>
+        <item>@drawable/heineken</item>
+        <item>@drawable/kobanyai</item>
+        <item>@drawable/tramini_edes</item>
+        <item>@drawable/bloody_mary</item>
+        <item>@drawable/tequila_sun</item>
+        <item>@drawable/aperol</item>
     </array>
 
     <array name="ital_ertekelesek">
@@ -53,25 +49,21 @@
         <item>5</item>
         <item>4</item>
         <item>4.5</item>
-        <item>5</item>
-        <item>5</item>
-        <item>5</item>
-        <item>2.5</item>
-        <item>5</item>
-        <item>3</item>
+        <item>4</item>
+        <item>4.8</item>
+        <item>4.2</item>
+        <item>4.7</item>
     </array>
 
     <array name="ital_arak">
-        <item>3000 Ft</item>
-        <item>3000 Ft</item>
-        <item>3200 Ft</item>
-        <item>3150 Ft</item>
-        <item>3000 Ft</item>
-        <item>2900 Ft</item>
-        <item>3050 Ft</item>
-        <item>3130 Ft</item>
-        <item>3025 Ft</item>
-        <item>2400 Ft</item>
+        <item>570 Ft</item>
+        <item>960 Ft</item>
+        <item>380 Ft</item>
+        <item>320 Ft</item>
+        <item>1000 Ft</item>
+        <item>1800 Ft</item>
+        <item>1600 Ft</item>
+        <item>1750 Ft</item>
 
     </array>
 

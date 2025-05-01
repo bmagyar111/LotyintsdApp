@@ -17,6 +17,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
@@ -54,11 +55,11 @@ public class ItalokAdapter extends RecyclerView.Adapter<ItalokAdapter.ViewHolder
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new ViewHolder(LayoutInflater.from(mContext).inflate(R.layout.activity_shop_list, parent, false));
+        return new ViewHolder(LayoutInflater.from(mContext).inflate(R.layout.ital_list, parent, false));
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ItalokAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(ItalokAdapter.ViewHolder holder, int position) {
         Italok currItem = italAdatok.get(position);
         holder.bindTo(currItem);
 
@@ -152,10 +153,10 @@ public class ItalokAdapter extends RecyclerView.Adapter<ItalokAdapter.ViewHolder
             Tcsillag = itemView.findViewById(R.id.italCsillag);
             T_ar = itemView.findViewById(R.id.italAr);
 
-            itemView.findViewById(R.id.buy), setOnClickListener(new View.OnClickListener() {
+            itemView.findViewById(R.id.buy).setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View view) {
-                    ((ShopListActivity) mContext).updateAlertIcon();
+                public void onClick(View v) {
+                    ((ShopListActivity)mContext).updateAlertIcon();
                 }
             });
         }
